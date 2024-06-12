@@ -1,0 +1,14 @@
+<template>
+    
+    <lightning-card title="Editar/Crear">
+        <lightning-record-edit-form object-api-name="Account" record-id={recordId} onsuccess={handleSuccess}>
+
+            <lightning-input-field field-name="Name"> </lightning-input-field>
+            <lightning-input-field field-name="Phone"> </lightning-input-field>
+            <lightning-button type="submit" label="Guardar"></lightning-button>
+        
+        </lightning-record-edit-form>
+        
+    </lightning-card>
+
+</template>
